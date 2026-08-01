@@ -1,0 +1,34 @@
+# QQ音乐广告与遥测域名 Reject - Anywhere Routing RuleSet
+# Anywhere 仅支持 suffix 域名路由；已去重上游重复项。
+
+name = QQ音乐 Reject
+routing = 2
+2, adstats.tencentmusic.com
+2, ad.tencentmusic.com
+2, adcdn.tencentmusic.com
+2, adcdn6.tencentmusic.com
+2, adexpo.tencentmusic.com
+2, adclick.tencentmusic.com
+2, otheve.beacon.qq.com
+2, monitor.music.qq.com
+2, stat.y.qq.com
+2, tmead.y.qq.com
+2, oth.str.mdt.qq.com
+2, h.trace.qq.com
+2, sdk.e.qq.com
+2, p.l.qq.com
+2, us.l.qq.com
+2, tangram.e.qq.com
+2, tmeadbak.y.qq.com
+2, imtmp.net
+2, tmeadcomm.y.qq.com
+2, rqd.qq.com
+2, wup.imtt.qq.com
+2, gdt.qq.com
+2, android.rqd.qq.com
+2, e.qq.com
+2, v.gdt.qq.com
+2, amsweb-cdn-gz-1258344696.file.myqcloud.com
+2, wallpaper-1258344696.file.myqcloud.com
+2, xs.gdt.qq.com
+0, 120.222.240.171/32

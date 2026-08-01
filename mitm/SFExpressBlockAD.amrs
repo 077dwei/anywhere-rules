@@ -1,0 +1,11 @@
+# 顺丰快递去广告 - Anywhere Testing 候选
+# 上游: fmz200/wool_scripts@2989c065（SFExpress.lpx）。
+# 纯原生固定 JSON 响应，无 JavaScript。
+
+name = 顺丰快递去广告
+hostname = ccsp-egmas.sf-express.com, ucmp.sf-express.com
+
+0, 0, ^https?://ucmp\.sf-express\.com/proxy/esgcempcore/memberGoods/pointMallService/goodsList(?:\?|$), 2, {}
+0, 0, ^https?://ccsp-egmas\.sf-express\.com/cx-app-video/video/app/video/labelClusterList(?:\?|$), 2, {}
+0, 0, ^https?://ccsp-egmas\.sf-express\.com/cx-app-base/base/app/ad/queryInfoFlow(?:\?|$), 2, {}
+0, 0, ^https?://ccsp-egmas\.sf-express\.com/cx-app-base/base/app/bms/queryRecommend(?:\?|$), 2, {}

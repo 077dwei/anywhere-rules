@@ -1,0 +1,14 @@
+# 美团与美团外卖去广告 - Anywhere Testing 候选
+# 上游: fmz200/wool_scripts@2989c065（Meituan-MeituanWaimai.lpx）。
+# 纯原生固定 JSON / 1×1 GIF 响应，无 JavaScript。
+
+name = 美团与美团外卖去广告
+hostname = wmapi.meituan.com, img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, 59.82.113.10
+
+0, 0, ^https?://wmapi\.meituan\.com/api/v7/(?:loadInfo|openscreen|startpicture)\?, 2, {}
+0, 0, ^https?://(?:s3plus|flowplus)\.meituan\.net/v\d/\w+/linglong/\w+\.(?:gif|jpg|mp4), 3
+0, 0, ^https?://img\.meituan\.net/bizad/bizad_brandCpt_\d+\.jpg, 3
+0, 0, ^https?://img\.meituan\.net/goodsawardpic/[a-f0-9]+\.png\.webp, 3
+0, 0, ^https?://s3plus\.meituan\.net/ocean-blk-index/index/blk_conf_73\.json(?:\?|$), 2, {}
+0, 0, ^https?://s3plus\.meituan\.net/v1/mss_\w+/(?:brandcpt-vedio|waimai-alita)/\w+\.zip$, 2, {}
+0, 0, ^http://59\.82\.113\.10/amdc/mobileDispatch\?appkey=213807&, 2, {}

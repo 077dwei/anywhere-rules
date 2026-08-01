@@ -1,0 +1,11 @@
+# 知乎广告与遥测域名 Reject - Anywhere Routing RuleSet
+# IP literal 由 MITM 固定响应处理，避免 Routing Reject 与 MITM hostname 重叠。
+
+name = 知乎 Reject
+routing = 2
+2, appcloud.zhihu.com
+2, appcloud2.in.zhihu.com
+2, crash2.zhihu.com
+2, mqtt.zhihu.com
+2, sugar.zhihu.com
+2, zxid-m.mobileservice.cn

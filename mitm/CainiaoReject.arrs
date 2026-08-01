@@ -1,0 +1,7 @@
+# 菜鸟开屏视频广告 Reject - Anywhere Routing RuleSet
+# 依据维护者 2026-08-02 HAR：两域名返回同一广告 MP4，User-Agent 为 Cainiao4iPhone。
+
+name = 菜鸟 Reject
+routing = 2
+2, v66-ad.ndcjl.com
+2, v1-lm.adukwai.com

@@ -1,7 +1,7 @@
-# 高德地图去广告增强版 - Anywhere MITM RuleSet
+# 高德地图去广告 - Anywhere MITM RuleSet
 # 上游: RuCu6 / kelv1n1n / 可莉（Amap.lpx, amap.js）。
 
-name = 高德地图去广告增强版
+name = 高德地图去广告
 hostname = m5.amap.com, m5-zb.amap.com, oss.amap.com, ai.amap.com, sns.amap.com, info.amap.com, amdc.m.taobao.com
 
 0, 0, ^http://amdc\.m\.taobao\.com/amdc/mobileDispatch(?:\?|/|$), 2, 

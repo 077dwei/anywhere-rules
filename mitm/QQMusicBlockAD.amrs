@@ -1,0 +1,10 @@
+# QQ音乐去广告 - Anywhere Testing 候选
+# 上游: fmz200/wool_scripts@2989c065（QQMusic.lpx）。
+# 路由广告域名另见 QQMusicReject.arrs；MITM 保留可达 host 的全部开屏素材前缀和固定图片响应。
+
+name = QQ音乐去广告
+hostname = y.gtimg.cn, music.y.qq.com
+
+0, 100, ^https?://(?:(?:y\.gtimg\.cn|music\.y\.qq\.com)/music/common/upload/t_splash_info/|music\.y\.qq\.com/maproxy/getPbCompressAd), ZnVuY3Rpb24gcHJvY2VzcyhjdHgpIHsKICBpZiAoY3R4LnBoYXNlICE9PSAicmVxdWVzdCIpIHJldHVybjsKICBBbnl3aGVyZS5yZXNwb25kKHsgc3RhdHVzOiA0MDQsIGhlYWRlcnM6IFtdLCBib2R5OiBuZXcgVWludDhBcnJheSgpIH0pOwp9Cg==
+0, 0, ^https?://y\.gtimg\.cn/music/common//upload/kg_ad/.*?\d{4}\.jpg, 3
+0, 0, ^https?://y\.gtimg\.cn/music/common/upload/targeted_ads, 3

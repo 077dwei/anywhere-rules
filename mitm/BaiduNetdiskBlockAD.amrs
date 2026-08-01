@@ -1,0 +1,8 @@
+# 百度网盘去广告 - Anywhere Testing 候选
+# 上游: fmz200/wool_scripts@2989c065（BaiduNetdisk.lpx）。
+# 固定 404 请求响应；仅使用一个极小 Anywhere 原生请求脚本。
+
+name = 百度网盘去广告
+hostname = pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn
+
+0, 100, ^https?://(?:pan\.baidu\.com/(?:rest/(?:\d\.\d/pcs/adx|2\.0/pcs/ad|.+/pcs/adx)|act/(?:v\d/(?:bchannel|welfare)/list|api/activityentry|.+/bchannel/list)|pmall/order/privilege/info|api/(?:useractivity/activity|certuser/get)|component/view/(?:1510|1130)\?vip)|ndstatic\.cdn\.bcebos\.com/activity/welfare/(?:js/.+\.js|index\.html)|staticsns\.cdn\.bcebos\.com/amis/.+/banner\.png|issuecdn\.baidupcs\.com/issue/netdisk/guanggao|update\.pan\.baidu\.com/statistics|fc-video\.cdn\.bcebos\.com(?:/|$)|rp\.hpplay\.cn/logouts), ZnVuY3Rpb24gcHJvY2VzcyhjdHgpe2lmKGN0eC5waGFzZSE9PSJyZXF1ZXN0IilyZXR1cm47QW55d2hlcmUucmVzcG9uZCh7c3RhdHVzOjQwNCxoZWFkZXJzOltdLGJvZHk6bmV3IFVpbnQ4QXJyYXkoKX0pO30=
