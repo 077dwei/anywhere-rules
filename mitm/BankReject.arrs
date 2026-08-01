@@ -1,5 +1,0 @@
-# Bank 域名 Reject - Anywhere Routing RuleSet
-
-name = Bank Reject
-routing = 2
-2, adv.ccb.com
