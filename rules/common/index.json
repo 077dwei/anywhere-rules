@@ -1,16 +1,15 @@
 {
   "total_files": 39,
-  "total_rules": 143983,
-  "total_skipped": 68,
+  "total_rules": 144094,
+  "total_skipped": 67,
   "files": [
     {
       "name": "Reject",
       "description": "广告、恶意站点和跟踪拦截基础集合",
       "output_path": "common/Reject.arrs",
-      "rule_count": 6203,
-      "skipped_count": 2,
+      "rule_count": 6197,
+      "skipped_count": 1,
       "unsupported_types": {
-        "USER-AGENT": 1,
         "AND": 1
       },
       "sources": [
@@ -475,7 +474,7 @@
       "name": "Geosite_CN",
       "description": "Geosite 中国大陆域名规则",
       "output_path": "common/Geosite_CN.arrs",
-      "rule_count": 5034,
+      "rule_count": 5151,
       "skipped_count": 3,
       "unsupported_types": {
         "Regex": 3
