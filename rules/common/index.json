@@ -1,6 +1,6 @@
 {
   "total_files": 39,
-  "total_rules": 144095,
+  "total_rules": 144101,
   "total_skipped": 67,
   "files": [
     {
@@ -392,7 +392,7 @@
       "name": "Lan",
       "description": "局域网和私有地址",
       "output_path": "common/Lan.arrs",
-      "rule_count": 8,
+      "rule_count": 14,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
